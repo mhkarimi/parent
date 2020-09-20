@@ -8,6 +8,9 @@ public class ParentApplication {
 
     public static void main(String[] args) {
         System.out.println("Hello World from the parent project");
+        System.out.println("After I pushed to the child,I pulled from the parent. Now I want to push only parent changes" +
+                "and ignore child changes");
+
         SpringApplication.run(ParentApplication.class, args);
     }
 
