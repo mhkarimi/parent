@@ -1,0 +1,4 @@
+[submodule "child"]
+	path = child
+	url = https://github.com/mhkarimi/child.git
+	branch = master
