@@ -12,6 +12,7 @@ public class ParentApplication {
                 "and ignore child changes");
         System.out.println("Test git pull --recurse-submodules from Parent");
         System.out.println("Test git pull --recurse-submodules from Parent");
+        System.out.println("Test git pull --recurse-submodules from Parent");
 
         SpringApplication.run(ParentApplication.class, args);
     }
