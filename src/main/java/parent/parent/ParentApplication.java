@@ -10,6 +10,7 @@ public class ParentApplication {
         System.out.println("Hello World from the parent project");
         System.out.println("After I pushed to the child,I pulled from the parent. Now I want to push only parent changes" +
                 "and ignore child changes");
+        System.out.println("Test git pull --recurse-submodules from Child");
 
         SpringApplication.run(ParentApplication.class, args);
     }
